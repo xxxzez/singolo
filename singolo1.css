@@ -1,6 +1,6 @@
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 
-body{
+body {
     width: 1020px;
     margin: 0px auto;
 }
@@ -9,65 +9,67 @@ body{
     display: flex;
     flex-direction: row;
     background-color: #2d303a;
-    align-items: center;    
+    align-items: center;
     justify-content: space-between;
-    border-bottom: 6px solid #323746;
+    border-bottom: 5px solid #323746;
 }
 
-.logo-singolo{
+.logo-singolo {
     font-family: 'Lato', sans-serif;
     font-size: 18pt;
     color: rgba(255, 255, 255, 255);
     margin: 35px 0px 35px 40px;
 }
 
-.logo-x{
+.logo-x {
     font-family: 'Lato', sans-serif;
-    font-size: 11pt;
+    font-size: 16px;
     color: #f06c64;
 }
 
 
-.navigation{
+.navigation {
     display: flex;
     flex-direction: row;
     flex-basis: 370px;
-    margin: auto 40px;
+    margin: 45px 40px 35px;
     justify-content: space-between;
 }
 
-.nav-link{
+.nav-link {
     font-family: 'Lato', sans-serif;
     font-size: 8.6pt;
 }
 
- .nav-link a {
+.nav-link a {
     color: rgba(255, 255, 255, 255);
     text-decoration: none;
-  }
+}
 
-.nav-link a:hover{
+.nav-link a:hover {
     color: rgba(240, 108, 100, 255);
 }
 
-.dot{
+.dot {
     margin: 0 10px;
     font-size: 14px;
     color: #494e62;
 }
 
-.main{
+.main {
     height: 600px;
     background-color: rgba(240, 108, 100, 255);
 }
 
 
 
-.services{
+.services {
     background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
 }
 
-.title{
+.title {
     margin-left: 40px;
     margin-top: 67px;
     font-size: 30px;
@@ -76,9 +78,10 @@ body{
     font-family: "Lato";
     font-weight: 900;
     text-align: left;
+
 }
 
-.description{
+.description {
     margin: 33px 40px 50px;
     font-size: 18px;
     line-height: 30px;
@@ -88,7 +91,7 @@ body{
     text-align: left;
 }
 
-.service-cards{
+.service-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -96,7 +99,7 @@ body{
     margin: 0 40px 66px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: row;
     margin-bottom: 35px;
@@ -130,7 +133,7 @@ body{
 
 
 
-.card-name{
+.card-name {
     margin-bottom: 20px;
     font-size: 18px;
     line-height: 18px;
@@ -140,7 +143,7 @@ body{
     text-align: left;
 }
 
-.cards-info{
+.cards-info {
     display: flex;
     flex-direction: column;
     width: 219px;
